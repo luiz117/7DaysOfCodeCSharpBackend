@@ -1,0 +1,6 @@
+C:\Users\conta.DESKTOP-IPHRGP0\OneDrive\Área de Trabalho\Tamagotchi.exe
+C:\Users\conta.DESKTOP-IPHRGP0\OneDrive\Área de Trabalho\Tamagotchi.dll
+C:\Users\conta.DESKTOP-IPHRGP0\OneDrive\Área de Trabalho\Tamagotchi.deps.json
+C:\Users\conta.DESKTOP-IPHRGP0\OneDrive\Área de Trabalho\Tamagotchi.runtimeconfig.json
+C:\Users\conta.DESKTOP-IPHRGP0\OneDrive\Área de Trabalho\Tamagotchi.pdb
+C:\Users\conta.DESKTOP-IPHRGP0\OneDrive\Área de Trabalho\RestSharp.dll

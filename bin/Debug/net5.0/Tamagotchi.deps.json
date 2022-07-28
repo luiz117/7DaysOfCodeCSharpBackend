@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Tamagotchi/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "3.1.1",
+          "RestSharp": "106.15.0"
+        },
+        "runtime": {
+          "Tamagotchi.dll": {}
+        }
+      },
+      "AutoMapper/3.1.1": {
+        "runtime": {
+          "lib/net40/AutoMapper.Net4.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          },
+          "lib/net40/AutoMapper.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "RestSharp/106.15.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.15.0.0",
+            "fileVersion": "106.15.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tamagotchi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8CKkN77Q4FFzqLd84KoWfIkcw8/xrhI5KPx9Vd7tla8pnen6WKCsV7VaA8XEiCw0En+hUMsjWMO/eyizjWYX5A==",
+      "path": "automapper/3.1.1",
+      "hashPath": "automapper.3.1.1.nupkg.sha512"
+    },
+    "RestSharp/106.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HM7ohR6AscxedNenrrl93DSZG6hvdnA7O+NHyCl/6ZKTfn8psQ9rRmUpcb9eWr+140vmfxoVemql0bUoeGEW3A==",
+      "path": "restsharp/106.15.0",
+      "hashPath": "restsharp.106.15.0.nupkg.sha512"
+    }
+  }
+}
