@@ -110,7 +110,7 @@ namespace Tamagotchi
 
             indiceMascote = Mensagens.MenuConsultarMascotes(MascotesAdotados);
             while (opcaoUsuario != "4")
-            {
+            { 
                 opcaoUsuario = Mensagens.InteragirComMascotes(MascotesAdotados[indiceMascote]);
 
                 switch (opcaoUsuario)
