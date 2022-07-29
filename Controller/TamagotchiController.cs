@@ -6,21 +6,19 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Tamagotchi;
-using Tamagotchi.Model;
 
 namespace Tamagotchi
 {
     public class TamagotchiController
     {
         private string NomeJogador { get; set; }
-        private List<Mascote> MascotesAdotados { get; set; }
+        private List<Pokemon> MascotesAdotados { get; set; }
         private TamagotchiView Mensagens { get; set; }
 
-        private MascoteMapping Mapeador;
 
         public TamagotchiController()
         {
-            this.MascotesAdotados = new List<Mascote>();
+            this.MascotesAdotados = new List<Pokemon>();
             this.Mensagens = new TamagotchiView();
         }
 
@@ -55,8 +53,7 @@ namespace Tamagotchi
         {
             string opcaoUsuario = "1", especieMascote;
             Pokemon pokemon = new();
-            Mascote mascote = new();
-            Mapeador = new MascoteMapping();
+          
 
             especieMascote = Mensagens.MenuAdocao();
 
@@ -67,29 +64,13 @@ namespace Tamagotchi
                 switch (opcaoUsuario)
                 {
                     case "1":
-                        pokemon = PokemonService.BuscarCaracteristicasPorEspecie(especieMascote);
-
-                        Mapper.CreateMap<Pokemon, Mascote>()
-              .ForMember(dest => dest.Altura, opt => opt.MapFrom(src => src.height))
-              .ForMember(dest => dest.Peso, opt => opt.MapFrom(src => src.weight))
-              .ForMember(dest => dest.Nome, opt => opt.MapFrom(src => src.name))
-              .ForMember(dest => dest.Habilidades, opt => opt.MapFrom(src => src.abilities));
-                        mascote = Mapper.Map<Pokemon, Mascote>(pokemon);
-                        Mensagens.Detalhesmascote(mascote);
+                        pokemon = PokemonService.BuscarCaracteristicasPorEspecie(especieMascote);               
+                        Mensagens.DetalhesMascote(pokemon);
                         break;
                     
                     case "2":
                         pokemon = PokemonService.BuscarCaracteristicasPorEspecie(especieMascote);
-
-                        Mapper.CreateMap<Pokemon, Mascote>()
-              .ForMember(dest => dest.Altura, opt => opt.MapFrom(src => src.height))
-              .ForMember(dest => dest.Peso, opt => opt.MapFrom(src => src.weight))
-              .ForMember(dest => dest.Nome, opt => opt.MapFrom(src => src.name))
-              .ForMember(dest => dest.Habilidades, opt => opt.MapFrom(src => src.abilities));
-
-                        mascote = Mapper.Map<Pokemon, Mascote>(pokemon);
-
-                        this.MascotesAdotados.Add(mascote);
+                        this.MascotesAdotados.Add(pokemon);
                         Mensagens.SucessoAdocao(NomeJogador);
                         return;
 
@@ -116,7 +97,7 @@ namespace Tamagotchi
                 switch (opcaoUsuario)
                 {
                     case "1":
-                        Mensagens.DetalhesmascoteAdotado(MascotesAdotados[indiceMascote]);
+                        Mensagens.DetalhesMascoteAdotado(MascotesAdotados[indiceMascote]);
                         break;
                     case "2":
                         MascotesAdotados[indiceMascote].AlimentarMascote();

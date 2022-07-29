@@ -52,3 +52,23 @@ D:\7DaysOfCode\Tamagotchi Final\obj\Debug\net5.0\Tamagotchi.pdb
 D:\7DaysOfCode\Tamagotchi Final\obj\Debug\net5.0\Tamagotchi.genruntimeconfig.cache
 D:\7DaysOfCode\Tamagotchi Final\bin\Debug\net5.0\AutoMapper.Net4.dll
 D:\7DaysOfCode\Tamagotchi Final\bin\Debug\net5.0\AutoMapper.dll
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\Tamagotchi.csproj.AssemblyReference.cache
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\Tamagotchi.GeneratedMSBuildEditorConfig.editorconfig
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\Tamagotchi.AssemblyInfoInputs.cache
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\Tamagotchi.AssemblyInfo.cs
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\Tamagotchi.csproj.CoreCompileInputs.cache
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\Tamagotchi.dll
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\ref\Tamagotchi.dll
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\Tamagotchi.pdb
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\Tamagotchi.exe
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\Tamagotchi.deps.json
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\Tamagotchi.runtimeconfig.json
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\Tamagotchi.runtimeconfig.dev.json
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\Tamagotchi.dll
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\ref\Tamagotchi.dll
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\Tamagotchi.pdb
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\AutoMapper.Net4.dll
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\AutoMapper.dll
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\bin\Debug\net5.0\RestSharp.dll
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\Tamagotchi.csproj.CopyComplete
+D:\7DaysOfCode\7DaysOfCodeCSharpBackend\obj\Debug\net5.0\Tamagotchi.genruntimeconfig.cache
