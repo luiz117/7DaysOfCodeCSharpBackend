@@ -99,7 +99,7 @@ namespace Tamagotchi
             }
         }
 
-        public void SucessoAdocao(string especie)
+        public void SucessoAdocao()
         {
             Console.WriteLine($"{nameJogador} Pokemon ADOTADO COM SUCESSO, O OVO ESTÁ CHOCANDO: ");
 
